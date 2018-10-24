@@ -13,6 +13,7 @@
 		FB2E57D0218059DD00BA22E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2E57CF218059DD00BA22E5 /* Assets.xcassets */; };
 		FB2E57D3218059DD00BA22E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2E57D1218059DD00BA22E5 /* LaunchScreen.storyboard */; };
 		FB2E57D6218059DD00BA22E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2E57D5218059DD00BA22E5 /* main.m */; };
+		FB2E57DE21805AE800BA22E5 /* KeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2E57DD21805AE800BA22E5 /* KeyBoardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FB2E57D2218059DD00BA22E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB2E57D4218059DD00BA22E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB2E57D5218059DD00BA22E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB2E57DC21805AE800BA22E5 /* KeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardView.h; sourceTree = "<group>"; };
+		FB2E57DD21805AE800BA22E5 /* KeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		FB2E57C5218059DC00BA22E5 /* CustomKeyBoardView */ = {
 			isa = PBXGroup;
 			children = (
+				FB2E57DC21805AE800BA22E5 /* KeyBoardView.h */,
+				FB2E57DD21805AE800BA22E5 /* KeyBoardView.m */,
 				FB2E57C6218059DC00BA22E5 /* AppDelegate.h */,
 				FB2E57C7218059DC00BA22E5 /* AppDelegate.m */,
 				FB2E57C9218059DC00BA22E5 /* ViewController.h */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB2E57CB218059DC00BA22E5 /* ViewController.m in Sources */,
+				FB2E57DE21805AE800BA22E5 /* KeyBoardView.m in Sources */,
 				FB2E57D6218059DD00BA22E5 /* main.m in Sources */,
 				FB2E57C8218059DC00BA22E5 /* AppDelegate.m in Sources */,
 			);

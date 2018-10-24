@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  CustomKeyBoardView
+//  自定义键盘
 //
-//  Created by gaol on 2018/10/24.
-//  Copyright © 2018 gaol. All rights reserved.
+//  Created by 王洋 on 2018/10/19.
+//  Copyright © 2018年 王洋. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
